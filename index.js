@@ -1,4 +1,5 @@
-const BoilerplateClient = require('./src/BoilerplateClient')
+const BoilerplateClient = require('./src/BoilerplateClient');
 
-const client = new BoilerplateClient()
-client.start()
+const client = new BoilerplateClient();
+
+client.start();

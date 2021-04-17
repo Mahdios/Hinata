@@ -1,25 +1,22 @@
 {
-  "name": "akairo-boilerplate",
+  "name": "Hianta",
   "version": "1.0.0",
-  "description": "A boilerplate for a basic discord.js bot using Akairo framework",
+  "description": "بوت الانمي الثاني عربيا",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "startmon": "nodemon index.js --ignore ./src/structures/*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/notSalt/akairo-boilerplate.git"
-  },
-  "author": "_notSalt",
+  "author": "decode me",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/notSalt/akairo-boilerplate/issues"
-  },
-  "homepage": "https://github.com/notSalt/akairo-boilerplate#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
     "discord-akairo": "^8.0.0",
+    "discord-pages": "^1.0.2",
     "discord.js": "^12.2.0",
     "mongoose": "^5.9.25",
+    "nodemon": "^2.0.7",
     "winston": "^3.3.3"
   }
 }
